@@ -2,5 +2,37 @@ nav{
   background: #fff;
   height: 80px;
   padding: 20px 0 20px 0;
+}
+#section-hero{
+  background-image: url(../labcar/img/taxi.jpg);
+  height: 1000px;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
 
+#div-registrate{
+  background: #f7b617;
+  height: 350px;
+  color: white;
+  padding: 10px;
+}
+#div-registrate h3{
+  display: inline-block;
+}
+#div-registrate hr{
+  display: inline-block;
+  width: 144px;
+  margin-right: 29px;
+  margin-left: 29px;
+}
+#div-registrate img{
+  width: 99px;
+  margin-left: 25px;
+}
+#div-registrate label{
+  position: absolute;
+  margin-left: -25px;
 }
