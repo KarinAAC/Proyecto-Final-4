@@ -57,3 +57,26 @@ nav{
 #section-informacion p{
   font-size: 20px;
 }
+#section-conduce{
+  background-image: url(../labcar/img/conduce.jpg);
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#section-conduce #conviertete-conductor{
+  background: #333;
+  opacity: 0.5;
+  height: 600px;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 40px 0 40px;
+
+}
+#section-conduce #conviertete-conductor button{
+  background: #f7b617;
+  border: none;
+}
