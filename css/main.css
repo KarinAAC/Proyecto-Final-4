@@ -10,7 +10,9 @@ nav{
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: flex-end;
 }
 
 #div-registrate{
@@ -35,4 +37,23 @@ nav{
 #div-registrate label{
   position: absolute;
   margin-left: -25px;
+}
+#section-informacion{
+  height: 600px;
+  background: #f7b617;
+  display:flex;
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#section-informacion #container{
+  border: 1px solid white;
+  width: 1200px;
+  padding: 30px 0 30px 100px;
+}
+#section-informacion p{
+  font-size: 20px;
 }
