@@ -85,8 +85,8 @@ nav{
 }
 #section-tarifa #rutas{
   color: #fff;
-  text-align: center;
-  padding: 185px 0 180px 0;
+
+  padding: 185px 0 180px 120px;
 }
 #section-tarifa #rutas span{
   display: inline-block;
@@ -98,6 +98,9 @@ nav{
   border:  1px solid #fff;
   background: #f7b617;
   color: #fff;
+}
+#section-tarifa #rutas button {
+  margin-left: 150px;
 }
 #section-tarifa #mapa{
  height: 600px;
@@ -112,4 +115,33 @@ nav{
 #section-tarifa #mapa #contenedor-mapa img{
   width: 555px;
   height: 480px;
+}
+#section-footer{
+  height: 600px;
+  background: #333;
+  color: #fff;
+}
+#section-footer #row-uno{
+  height: 100px;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+}
+#section-footer #row-dos{
+  height: 400px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+}
+#section-footer #row-dos ul li{
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+}
+#section-footer #row-tres{
+  height: 100px;
+  border-top: 1px solid #fff;
+  text-align: center;
 }
