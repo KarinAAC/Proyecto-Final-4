@@ -5,7 +5,9 @@ header{
   background: #fff;
   height: 80px;
   padding: 20px 0 20px 0;
+
 }
+
 #section-hero{
   background-image: url(../labcar/img/taxi.jpg);
   height: 1000px;
@@ -13,16 +15,19 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
-}
 
+}
 #div-registrate{
+  width: 500px;
   background: #f7b617;
   height: 350px;
   color: white;
   padding: 10px;
+  margin-left: 849px;
+}
+#div-registrate h2{
+  display: none;
 }
 #div-registrate h3{
   display: inline-block;
@@ -147,4 +152,68 @@ header{
   height: 100px;
   border-top: 1px solid #fff;
   text-align: center;
+}
+
+@media (max-width:600px) {
+  #section-hero{
+    height: 600px;
+  }
+  #section-hero #div-registrate{
+    margin-left: 110px;
+    width: 250px;
+    height: 176px;
+  }
+  #section-hero #div-registrate h1, #section-hero #div-registrate h5, #section-hero #div-registrate hr, #section-hero #div-registrate label, #section-hero #div-registrate h3,#section-hero #div-registrate img{
+    display: none;
+  }
+  #section-hero #div-registrate h2{
+    display: inline-block;
+  }
+  #section-informacion{
+    height: 400px;
+  }
+  #section-informacion #parrafo{
+    display: none;
+  }
+  #section-informacion img{
+    width: 200px;
+  }
+  #section-informacion #container{
+    padding: 70px 45px 70px 45px;
+  }
+  #section-conduce #conviertete-conductor{
+    width: 360px;
+  }
+  #section-tarifa{
+    height: 400px;
+    padding-top: 40px;
+    padding-left: 20px;
+  }
+  #section-tarifa #mapa #contenedor-mapa, #section-tarifa #mapa #contenedor-mapa img{
+    display: none;
+  }
+  #section-tarifa #rutas{
+    padding: 10px;
+  }
+  #section-tarifa #rutas input{
+    width: 220px;
+  }
+  #section-tarifa #rutas button{
+    margin-left: 90px;
+  }
+  #section-footer{
+    height: 630px;
+  }
+  #section-footer #oculto-2{
+    margin-left: -70px;
+  }
+  #section-footer #oculto-1 {
+    display: none;
+  }
+  #section-footer #iconos{
+    display: none;
+  }
+  #section-footer #publicidad{
+    height: 350px;
+  }
 }
